@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+#header {
+  height: 50vh;
+  background-color: #F08080;
+  background-size: cover;
+}
+
+.title {
+    text-align: center;
+    top: 25%;
+    left: 25%;
+    transform: translate(-25%, -25%);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.profilePic{
+    float: right;
+    top: 25%;
+    right: 25%;
+    transform: translate(-300%, 80% );
+}
