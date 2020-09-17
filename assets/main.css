@@ -9,30 +9,28 @@ body, html {
 
 #header {
   height: 50vh;
+  width: 100vw;
   background-color: #F08080;
   background-size: cover;
+  float: center;
 }
 
 .title {
     text-align: center;
-    top: 25%;
-    left: 25%;
-    transform: translate(-25%, -25%);
+    float: left; 
+    top: 20%;
+    left: 20%;
+    transform: translate(40%, 30%);
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: absolute;
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 4vw;
 }
 
-.profilePic{
-    float: right;
-    top: 25%;
-    right: 25%;
-    transform: translate(-300%, 80% );
-}
+
 
 nav ul li {
   list-style: none;
@@ -61,4 +59,12 @@ nav ul li a {
   z-index: 2;
   cursor: pointer;
 
+}
+
+.profilePic{
+  display: block;
+  padding-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
 }
