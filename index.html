@@ -29,6 +29,21 @@
                 <li><a href="Process.html">Website Creation Process</a></li>
             </ul>
         </nav>
+        <img src="resources/menu.jpg" id="menuButton">
+
+        <script>
+            var menu = document.getElementById("menu");
+            var menuButton = document.getElementById("menuButton");
+            
+            menu.style.right = "-1000px";
+            menuButton.onclick = function(){
+                if (menu.style.right == "-1000px"){
+                    menu.style.right = "0";
+                } else {
+                    menu.style.right = "-1000px";
+                }
+            }
+        </script>
 
         <!--Banner-->
         
