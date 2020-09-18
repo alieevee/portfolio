@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="assets/main.css" />
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Alicia's Process </title>
+    </head>
+    <body>
+        <!--Header-->
+        <header id="header" class="alt">
+            <div class="title">
+                <h2>Alicia's Portfolio: Creative Process</h2>
+                <span>by alieevee</span>
+            </div>
+        </header>
+
+        <!--Navigation-->
+        <nav id="menu">
+            <ul class="links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Keep In Touch</a></li>
+                <li><a href="Process.html">Website Creation Process</a></li>
+            </ul>
+        </nav>
+        <img src="resources/menu.jpg" id="menuButton">
+
+        <script>
+            var menu = document.getElementById("menu");
+            var menuButton = document.getElementById("menuButton");
+            
+            menu.style.right = "-1000px";
+            menuButton.onclick = function(){
+                if (menu.style.right == "-1000px"){
+                    menu.style.right = "0";
+                } else {
+                    menu.style.right = "-1000px";
+                }
+            }
+        </script>
+
+        <!--Design Phase-->
+        <section id="design1">
+            <div class="purpose">
+                <h2>What was I creating for?</h2>
+                <p>In the modern era where digital portfolios are the new CVs, young jobseekers must keep up with this trend.
+                    It is not only a chance to show off some skills in plain HTML/CSS, but also makes life easier for the employer who has to handle
+                    many many documents lost in their stack of folders. 
+                    
+                    For this task I have decided to create a modern block design portfolio, with just essential features so to not complicate
+                    the website. There were several components that I considered important:
+                    <ul>
+                        <li>Header stating my name</li>
+                        <li>Menu that would pop out when clicked</li>
+                        <li>An about section that linked to my CV</li>
+                        <li>A contact section</li>
+                    </ul>
+                    ...and so I started the next phase of the design process: UI
+                </p>
+            </div>
+        </section>
+
+        <section id="design2">
+            <div class="UI">
+                <h2><i>Sketching it</i></h2>
+                <p>Here I used sketchable to roughly outline the UI. Following this step, I would also use Adobe Illustrator to further sophisticate the designs,
+                    however, I decided not to overcomplicate it this time. 
+                </p>
+            </div>
+            <div class="UISlideshow">
+                <div class="slideshow fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="img1.jpg" style="width:100%">
+                    <div class="text">Caption Text</div>
+                  </div>
+            </div>
+        </section>
+
+        <!--Footer-->
+        <section id="footer">
+            <hr>
+            <hr>
+            <hr>
+        </section>
+    </body>
+</html>
