@@ -151,3 +151,11 @@ hr{
   border-top: 1px solid #F08080;
 }
 
+[data-component="slideshow"] .slide {
+  display: none;
+}
+
+[data-component="slideshow"] .slide.active {
+  display: block;
+}
+
