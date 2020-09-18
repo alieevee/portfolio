@@ -1,6 +1,9 @@
+//Javascript for process page slideshows
+// Author: alieevee
+
 var slideshows = document.querySelectorAll('[data-component="slideshow"]');
   
-// Apply to all slideshows that you define with the markup wrote
+// Apply to all slideshows 
 slideshows.forEach(initSlideShow);
 
 function initSlideShow(slideshow) {

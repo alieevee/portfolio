@@ -1,3 +1,5 @@
+/*CSS for Portfolio website*/
+/*Author: alieevee*/
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +9,7 @@ body, html {
     height: 100%;
 }
 
+/*Header*/
 #header {
   height: 50vh;
   width: 100vw;
@@ -30,8 +33,7 @@ h1 {
   font-size: 4vw;
 }
 
-
-
+/*Navigation*/
 nav ul li {
   list-style: none;
   margin: 50px 20px;
@@ -61,6 +63,7 @@ nav ul li a {
 
 }
 
+/*About*/
 #about {
   margin-bottom: 5%;
 }
@@ -90,6 +93,7 @@ h2 {
   line-height: 150%;
 }
 
+/*Getting CV*/
 .button {
   border: none;
   color: white;
@@ -114,6 +118,7 @@ h2 {
   color: white;
 }
 
+/*Contact*/
 #contact {
   background-color: lightgray;
   margin: 2.5% 0;
@@ -140,6 +145,7 @@ form input{
   padding-right: 1%;
 }
 
+/*Footer*/
 #footer{
   padding: 30px 0 30px;
 }
